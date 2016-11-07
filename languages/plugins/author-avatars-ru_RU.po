@@ -1,0 +1,395 @@
+# Translation of Plugins - Author Avatars List - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Author Avatars List - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-16 08:39:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Author Avatars List - Stable (latest release)\n"
+
+#: lib/AuthorAvatarsForm.class.php:402
+msgid "White List"
+msgstr "Белый список"
+
+#: lib/AuthorAvatarsForm.class.php:314
+msgid "0nly show these uses, Comma separate list of user login ids"
+msgstr "Показывать только этих пользователей, список пользовательских id разделенных запятыми"
+
+#: lib/AuthorAvatarsForm.class.php:313
+msgid "White List of users"
+msgstr "Белый список пользователей"
+
+#: lib/AuthorAvatarsForm.class.php:293
+msgid "Comma separate list of user login ids. Hidden user are removed before the white list"
+msgstr "Список пользовательских id разделенных запятыми. Скрытые пользователи удаляются перед белым списком"
+
+#: lib/AuthorAvatarsForm.class.php:442
+msgid "UM Profile Page"
+msgstr "Страница профиля UM"
+
+#: author-avatars.php:90
+msgid "Help translate."
+msgstr "Помогите перевести."
+
+#. Author of the plugin/theme
+msgid "<a href=\"http://bearne.ca\">Paul Bearne</a>, <a href=\"http://mind2.de\">Benedikt Forchhammer</a>"
+msgstr "<a href=\"http://bearne.ca\">Paul Bearne</a>, <a href=\"http://mind2.de\">Benedikt Forchhammer</a>"
+
+#. Description of the plugin/theme
+msgid "Display lists of user avatars using <a href=\"widgets.php\">widgets</a> or <a href=\"https://authoravatars.wordpress.com/documentation/\">shortcodes</a>."
+msgstr "Показать списки пользователей с помощью <a href=\"widgets.php\">виджетов</a> аватаров или <a href=\"https://authoravatars.wordpress.com/documentation/\">шорткодов</a>."
+
+#. Plugin URI of the plugin/theme
+msgid "http://authoravatars.wordpress.com/"
+msgstr "http://authoravatars.wordpress.com/"
+
+#: lib/UserList.class.php:489
+msgid "%d BBPress post"
+msgid_plural "%d BBPress posts"
+msgstr[0] "%d запись BBPress"
+msgstr[1] "%d записи BBPress"
+msgstr[2] "%d записей BBPress"
+
+#: lib/UserList.class.php:480
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d запись"
+msgstr[1] "%d записи"
+msgstr[2] "%d записей"
+
+#: lib/UserList.class.php:468
+msgid "%d comment"
+msgid_plural "%d comments"
+msgstr[0] "%d комментарий"
+msgstr[1] "%d комментариев"
+msgstr[2] "%d комментариев"
+
+#: lib/UserList.class.php:280
+msgid ">>"
+msgstr ">>"
+
+#: lib/UserList.class.php:272
+msgid "<<"
+msgstr "<<"
+
+#: lib/UserList.class.php:197
+msgid "No users found."
+msgstr "Пользователи не найдены."
+
+#: lib/ShowAvatarShortcode.class.php:79
+msgid "[show_author shortcode: please set id/email attribute]"
+msgstr "[show_author shortcode: пожалуйста установите id/email значение]"
+
+#: lib/AAFormHelper.class.php:58
+msgid "Sorry, no choices available."
+msgstr "К сожалению, в настоящее время нет доступных выборов."
+
+#: lib/BuddyPressSupport.class.php:37
+msgid "BP %s profile: %s"
+msgstr "BP %s профиль: %s"
+
+#: lib/AuthorAvatarsWidget.class.php:241
+msgid "Title"
+msgstr "Название"
+
+#: lib/AuthorAvatarsWidget.class.php:54
+msgid "Displays avatars of blog users."
+msgstr "Показывать аватары пользователей блога."
+
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:117
+msgid "Select the blogs which you would like the blog filter to be enabled. Only blogs selected here can display users from other blogs."
+msgstr "Выберите список блогов где вы хотите активировать фильтр блога. Только в выбранных тут блогах можно показывать пользователей с других блогов."
+
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:110
+msgid "Enable blog filter"
+msgstr "Активировать фильтр блога"
+
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:100
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:93
+msgid "Avatar list settings"
+msgstr "Список настроек аватара"
+
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:90
+msgid "Sitewide Author Avatars Options"
+msgstr "Настройки аватаров автора на всем сайте"
+
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:85
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+#. #-#-#-#-#  tmp-author-avatars.pot (Author Avatars List 1.9.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:47
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:52
+msgid "Author Avatars List"
+msgstr "Список аватаров автора"
+
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:47
+#: lib/AuthorAvatarsSitewideAdminPanel.class.php:52
+msgid "Sitewide Author Avatars Configuration"
+msgstr "Настройка аватаров автора на всем сайте"
+
+#: lib/AuthorAvatarsForm.class.php:683
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: lib/AuthorAvatarsForm.class.php:679
+msgid "Right"
+msgstr "Справа"
+
+#: lib/AuthorAvatarsForm.class.php:678
+msgid "Center"
+msgstr "В центре"
+
+#: lib/AuthorAvatarsForm.class.php:677
+msgid "Left"
+msgstr "Слева"
+
+#: lib/AuthorAvatarsForm.class.php:676
+msgid "None"
+msgstr "Отсутствует"
+
+#: lib/AuthorAvatarsForm.class.php:644
+msgid "Custom value"
+msgstr "Пользовательское значение"
+
+#: lib/AuthorAvatarsForm.class.php:640
+msgid "Email address or user id"
+msgstr "Емейл адрес или id пользователя"
+
+#: lib/AuthorAvatarsForm.class.php:602
+msgid "Shortcode Type"
+msgstr "Тип шорткода"
+
+#: lib/AuthorAvatarsForm.class.php:598
+msgid "List of Users"
+msgstr "Список пользователей"
+
+#: lib/AuthorAvatarsForm.class.php:597
+msgid "Single Avatar"
+msgstr "Один аватар"
+
+#: lib/AuthorAvatarsForm.class.php:571
+msgid "Avatar Size"
+msgstr "Размер аватара"
+
+#: lib/AuthorAvatarsForm.class.php:553
+msgid "Required minimum number of posts"
+msgstr "Минимально необходимое количество записей"
+
+#: lib/AuthorAvatarsForm.class.php:532
+msgid "Trim Bio Length to "
+msgstr "Обрезать биографию до"
+
+#: lib/AuthorAvatarsForm.class.php:512
+msgid "Max. number of avatars per page"
+msgstr "Максимальное количество аватаров на странице"
+
+#: lib/AuthorAvatarsForm.class.php:493
+msgid "Max. number of avatars shown"
+msgstr "Максимальное количество отображаемых аватаров"
+
+#: lib/AuthorAvatarsForm.class.php:475
+msgid "Sorting direction"
+msgstr "Порядок сортировки"
+
+#: lib/AuthorAvatarsForm.class.php:471
+msgid "Descending"
+msgstr "Нисходящий"
+
+#: lib/AuthorAvatarsForm.class.php:470
+msgid "Ascending"
+msgstr "Восходящий"
+
+#: lib/AuthorAvatarsForm.class.php:453
+msgid "Link users to"
+msgstr "Ссылка пользователя на"
+
+#: lib/AuthorAvatarsForm.class.php:449
+msgid "BBpress Member Page"
+msgstr "Страница члена BBpress"
+
+#: lib/AuthorAvatarsForm.class.php:446
+msgid "Blog"
+msgstr "Блог"
+
+#: lib/AuthorAvatarsForm.class.php:445
+msgid "Users Last Post ALL blogs"
+msgstr "Последняя запись пользователя во всех блогах"
+
+#: lib/AuthorAvatarsForm.class.php:439
+msgid "BP Member Page"
+msgstr "Страница члена BP"
+
+#: lib/AuthorAvatarsForm.class.php:436
+msgid "Filtered Last Post"
+msgstr "Фильтрация последней записи"
+
+#: lib/AuthorAvatarsForm.class.php:435
+msgid "Users Last Post this blog"
+msgstr "Пользователь опубликовавший последнюю запись в блоге"
+
+#: lib/AuthorAvatarsForm.class.php:434
+msgid "Website"
+msgstr "Сайт"
+
+#: lib/AuthorAvatarsForm.class.php:433
+msgid "Author Page"
+msgstr "Страница автора"
+
+#: lib/AuthorAvatarsForm.class.php:415
+msgid "Sorting order"
+msgstr "Порядок сортировки"
+
+#: lib/AuthorAvatarsForm.class.php:411
+msgid "BudyPress last activity"
+msgstr "Последняя активность BudyPress"
+
+#: lib/AuthorAvatarsForm.class.php:408
+msgid "BBPress Post Count"
+msgstr "Число записей BBPress"
+
+#: lib/AuthorAvatarsForm.class.php:405
+msgid "Recent Sitewide Activity"
+msgstr "Последняя активность по сайту"
+
+#: lib/AuthorAvatarsForm.class.php:404
+msgid "Recent Posts Activity"
+msgstr "Последняя активность по записям"
+
+#: lib/AuthorAvatarsForm.class.php:403
+msgid "User Id"
+msgstr "ID пользователя"
+
+#: lib/AuthorAvatarsForm.class.php:401
+msgid "Random"
+msgstr "Случайный"
+
+#: lib/AuthorAvatarsForm.class.php:400
+msgid "Number of Posts"
+msgstr "Количество записей"
+
+#: lib/AuthorAvatarsForm.class.php:399
+msgid "Login Name"
+msgstr "Имя входа"
+
+#: lib/AuthorAvatarsForm.class.php:398
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: lib/AuthorAvatarsForm.class.php:397
+msgid "First Name"
+msgstr "Имя"
+
+#: lib/AuthorAvatarsForm.class.php:396
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#: lib/AuthorAvatarsForm.class.php:395
+msgid "Date of Registration"
+msgstr "Дата регистрации"
+
+#: lib/AuthorAvatarsForm.class.php:376
+msgid "Display options"
+msgstr "Настройки отображения"
+
+#: lib/AuthorAvatarsForm.class.php:367
+msgid "Show BBPress Post Count"
+msgstr "Показать количество записей BBPress"
+
+#: lib/AuthorAvatarsForm.class.php:364
+msgid "Show link to authors last post"
+msgstr "Показать ссылку на последнюю запись автора"
+
+#: lib/AuthorAvatarsForm.class.php:363
+msgid "Show number of posts"
+msgstr "Показывать количество записей"
+
+#: lib/AuthorAvatarsForm.class.php:362
+msgid "Show biography"
+msgstr "Показывать биографию"
+
+#: lib/AuthorAvatarsForm.class.php:361
+msgid "Show email"
+msgstr "Показывать емейл"
+
+#: lib/AuthorAvatarsForm.class.php:360
+msgid "Show name"
+msgstr "Показывать имя"
+
+#: lib/AuthorAvatarsForm.class.php:292
+msgid "Hidden users"
+msgstr "Скрытые пользователи"
+
+#: lib/AuthorAvatarsForm.class.php:231
+msgid "Show roles"
+msgstr "Показывать роли"
+
+#: lib/AuthorAvatarsForm.class.php:221
+msgid "Co-Author Plus Guest Authors"
+msgstr "Co-Author Plus гостевые авторы"
+
+#: lib/AuthorAvatarsForm.class.php:218
+msgid "Commentators"
+msgstr "Комментаторы"
+
+#: lib/AuthorAvatarsForm.class.php:197
+msgid "User list grouping"
+msgstr "Список группировки пользователей"
+
+#: lib/AuthorAvatarsForm.class.php:189
+msgid "Group by blogs"
+msgstr "Группировать по блогам "
+
+#: lib/AuthorAvatarsForm.class.php:130
+msgid "If no blog is selected only users from the current blog are displayed."
+msgstr "Если блог не выбран, будут показаны только пользователи с текущего блога."
+
+#: lib/AuthorAvatarsForm.class.php:129
+msgid "Show users from blogs"
+msgstr "Показывать пользователей с блогов"
+
+#: lib/AuthorAvatarsEditorButton.class.php:162
+msgid "Insert"
+msgstr "Вставить"
+
+#: lib/AuthorAvatarsEditorButton.class.php:159
+msgid "Cancel"
+msgstr "Отмена"
+
+#: lib/AuthorAvatarsEditorButton.class.php:151
+#: lib/AuthorAvatarsWidget.class.php:301
+msgid "Advanced"
+msgstr "Расширенный"
+
+#: lib/AuthorAvatarsEditorButton.class.php:131
+#: lib/AuthorAvatarsWidget.class.php:265
+msgid "Basic"
+msgstr "Основной"
+
+#: lib/AuthorAvatarsEditorButton.class.php:98
+msgid "Author avatars shortcodes"
+msgstr "Шорткоды аваторок автора"
+
+#: lib/AuthorAvatars.class.php:330 lib/AuthorAvatarsWidget.class.php:17
+msgid "Blog Authors"
+msgstr "Авторы блога"
+
+#: lib/AuthorAvatars.class.php:49
+msgid "Author avatars: update check failed."
+msgstr "Аватары автора: ошибка проверки обновления."
+
+#: lib/AuthorAvatars.class.php:47
+msgid "Author avatars: install check failed."
+msgstr "Аватары автора: ошибка проверки обновления."
+
+#: lib/AuthorAvatars.class.php:45
+msgid "Author avatars: system check failed."
+msgstr "Аватары автора: ошибка проверки системы."
