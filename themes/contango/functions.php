@@ -32,6 +32,17 @@ function contango_theme_setup() {
 	/** Add custom image sizes. */
 	add_action( 'init', 'contango_add_image_sizes' );
 
+	function afolio_script(){
+		//wp_enqueue_style('main', get_stylesheet_directory_uri() );
+		wp_register_script( 'justscript', get_template_directory_uri() . '/justscript.js' );
+		wp_enqueue_script('justscript');
+
+		wp_register_style('teststyle', get_template_directory_uri() . '/teststyle.css');
+		wp_enqueue_style('teststyle');
+	}
+
+	add_action('wp_enqueue_scripts', 'afolio_script');
+
 }
 
 /** Adds custom image sizes */
